@@ -1,0 +1,30 @@
+{
+	"name" : "barthuttinga/phphighcharts-exporter",
+	"type" : "library",
+	"description" : "PHP wrapper for exporting Highcharts created with PhpHighCharts with PhantomJS",
+	"keywords" : [
+		"highcharts",
+		"exporter",
+		"php"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Bart Huttinga",
+			"email" : "barthuttinga@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-0" : {
+			"PhpHighCharts\\" : "lib/barthuttinga/"
+		}
+	},
+    "require" : {
+        "barthuttinga/phphighcharts" : "dev-master",
+    },
+    "repositories" : [{
+            "type" : "git",
+            "url" : "https://github.com/barthuttinga/phphighcharts",
+            "name" : "PhpHighcharts"
+        }
+    ]
+}
