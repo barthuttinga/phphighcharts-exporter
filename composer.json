@@ -18,13 +18,13 @@
 			"PhpHighCharts\\" : "lib/barthuttinga/"
 		}
 	},
-    "require" : {
-        "barthuttinga/phphighcharts" : "dev-master",
-    },
-    "repositories" : [{
-            "type" : "git",
-            "url" : "https://github.com/barthuttinga/phphighcharts",
-            "name" : "PhpHighcharts"
-        }
-    ]
+	"require" : {
+		"barthuttinga/phphighcharts" : "dev-master"
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/barthuttinga/phphighcharts",
+			"name" : "PhpHighcharts"
+		}
+	]
 }
